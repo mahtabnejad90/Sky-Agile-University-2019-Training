@@ -1,0 +1,28 @@
+body {
+	background-color: green;
+}
+
+#navbar {
+	background-color: blue;
+	width: 100%;
+	overflow: hidden;
+}
+
+#navbar a {
+	color: white;
+	font-size: 15px;
+	float: left;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+}
+
+#navbar a:hover {
+	background-color: white;
+	color: black;
+}
+
+#navbar a.active {
+	color: orange;
+	background-color: black;
+}
