@@ -3,7 +3,6 @@
              document.getElementById("total").value+=val 
          } 
            
-         //function that evaluates the digit and return result 
          function calculateValues() 
          { 
              let x = document.getElementById("total").value 
